@@ -15,15 +15,15 @@ for x in range(25):
     cntr += 1;
 
 for i in array:
-    if(i =="agree"):
+    if(i ==2):
         agree_cntr+=1;
-    elif(i =="sagree"):
+    elif(i ==1):
         sagree_cntr+=1;
-    elif(i =="neutral"):
+    elif(i ==3):
         neutral_cntr+=1;
-    elif(i =="disagree"):
+    elif(i ==4):
          disagree_cntr+=1;
-    elif(i =="sdisagree"):
+    elif(i ==5):
         sdisagree_cntr+=1;
     else:
         print("**** you. Repeat.");
