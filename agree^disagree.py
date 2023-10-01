@@ -15,21 +15,21 @@ for x in range(25):
     cntr += 1;
 
 for i in array:
-    if(i ==2):
+    if(i =="agree"):
         agree_cntr+=1;
-    elif(i ==1):
+    elif(i =="sagree"):
         sagree_cntr+=1;
-    elif(i ==3):
+    elif(i =="neutral"):
         neutral_cntr+=1;
-    elif(i ==4):
+    elif(i =="dsagree"):
          disagree_cntr+=1;
-    elif(i ==5):
+    elif(i =="sdsagree"):
         sdisagree_cntr+=1;
     else:
         print("**** you. Repeat.");
 
 print("Strongly Agree: ", sagree_cntr);
-print("Agee: ", agree_cntr);
+print("Agree: ", agree_cntr);
 print("Neutral: ", neutral_cntr);
 print("Disagree: ", disagree_cntr);
 print("Strongly Disagree: ", sdisagree_cntr);
